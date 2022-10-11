@@ -1,12 +1,15 @@
 import "./Header.css";
 import React from "react";
+import {Link} from "react-router-dom"
+import Button from '@mui/material/Button';
 
-function template() {
+
+function Header() {
   return (
     <div className="header">
-      <h1>Header</h1>
+      <Link to="/"><Button>Home</Button></Link>
     </div>
   );
 };
 
-export default template;
+export default Header;

@@ -1,12 +1,16 @@
 import "./Router.css";
-import React from "react";
+// import React from "react";
+import {Route, Routes} from "react-router-dom"
+import Home from '../../pages/Home/Home'
+import PageNotFound from '../../pages/PageNotFound/PageNotFound'
 
-function template() {
+function Router() {
   return (
-    <div className="router">
-      <h1>Router</h1>
-    </div>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='*' element={<PageNotFound/>}/>
+      </Routes>
   );
 };
 
-export default template;
+export default Router;

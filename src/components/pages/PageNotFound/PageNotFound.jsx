@@ -1,7 +1,7 @@
 import "./PageNotFound.css";
 import React from "react";
 
-function template() {
+function PageNotFound() {
   return (
     <div className="page-not-found">
       <h1>PageNotFound</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default PageNotFound;
