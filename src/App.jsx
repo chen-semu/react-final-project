@@ -5,7 +5,7 @@ import Router from "./components/features/Router";
 import Header from './components/features/Header/Header'
 import Footer from './components/features/Footer/Footer'
 import {BrowserRouter} from "react-router-dom"
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   // const [count, setCount] = useState(0);
